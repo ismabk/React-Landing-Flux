@@ -1,0 +1,14 @@
+.img-derbi, .card{
+    width: 300px;
+}
+.center-content{
+    display: flex;
+    justify-content: center;
+}
+.card:hover{
+    box-shadow: 0px 0px 18px 6px rgba(0,0,0,0.56);
+}
+.hover-none, .hover-none:hover{
+    text-decoration: none;
+    color: black;
+}

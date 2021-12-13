@@ -1,0 +1,33 @@
+.carousel-caption {
+    color: black;
+}
+
+.carousel-inner img {
+    margin: auto;
+      width:70% !important;
+      height: 70% !important;
+  }
+
+.text-carrusel {
+     font-weight: bold;
+     color: black;
+     font-size: 1em;
+  }
+
+.title {
+     font-size: 1.3em !important;
+     font-weight: bold;
+     
+}
+
+  .bg-text{
+    background: #9eea0575;
+    border-radius: 5px;
+  }
+
+  @media (max-width: 1640px) {
+    .w-carousel{
+        width: 100% !important;
+    }
+    
+}

@@ -1,0 +1,33 @@
+.add {
+    background-color: #FF5A00;
+    color: white;
+    width:auto;
+    height: 50px;
+    position:static;
+}
+.containerToast{
+    max-width: none !important;
+}
+
+
+.toast-body {
+    background-color: #D8D8D8;
+}
+
+.textAdd{
+    color: red;
+    font-size: 2em;
+}
+
+.btn-close{
+    color:blue;
+}
+
+// Se aplica hasta 1200px el estilo
+@media (max-width: 1200px) { 
+    .order {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+ }

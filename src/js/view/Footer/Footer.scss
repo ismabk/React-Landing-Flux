@@ -1,0 +1,38 @@
+.ahover{
+    color: white;
+    text-decoration: none;
+}
+.ahover:hover{
+    color: #C4C4C4;
+    text-decoration: underline;
+}
+.colorF{
+    color:  #3b5998;
+}
+.colorT{
+ color: #00acee;
+}
+.colorI{
+ color: #DD2A7B;
+}
+.socialhover:hover{
+font-size: 1.5em;
+}
+.sizeLogo1, .sizeLogo2{
+    width: 200px;
+}
+.center-end{
+    display: flex;
+    justify-content: end;
+}
+@media (max-width: 767px) {
+    .sizeLogo1 {
+      display: none;
+    }
+    .center-sm{
+        justify-content: center !important;
+    }
+}
+.footer-position {
+    bottom: 0;
+}
